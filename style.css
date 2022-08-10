@@ -162,6 +162,17 @@ article {
   left: 300px;
 }
 
+footer {
+  border: 3px solid #f1f1f1;
+  background-color: hwb(0 0% 100% / 0.97);
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+footer p {
+  color: rgb(243, 255, 243) !important;
+  text-align: center;
+}
 h1,
 h2,
 h3 {
