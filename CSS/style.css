@@ -130,7 +130,15 @@ article {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  position: relative;
   /* height: 80px; */
+}
+.gif {
+  position: absolute;
+  display: inline-block;
+  bottom: 30px;
+  left: 100px;
+  padding-top: 30px;
 }
 .armed-pic {
   width: 180px;
