@@ -234,3 +234,14 @@ li a:hover {
 .social-icons a:hover {
   background-color: rgb(26, 65, 150);
 } */
+.col {
+  display: flex;
+}
+footer {
+  border: 3px solid #f1f1f1;
+  background-color: hwb(0 0% 100% / 0.97);
+}
+footer p {
+  color: rgb(243, 255, 243) !important;
+  text-align: center;
+}
