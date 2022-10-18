@@ -1,64 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact us</title>
+    <!-- <title> Responsive Contact Us Form  | CodingLab </title>-->
+    <link rel="stylesheet" href="CSS/contact-us.css" />
+    <!-- Fontawesome CDN Link -->
     <link
-      rel="icon"
-      type="image/x-icon"
-      href="Images/156-1568226_transparent-contact-icon-png-contact-us-icon-png.png"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
-    <link href="css/contact-us.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    
-    <header>
+    <!-- <header>
       <ul>
         <li><a class="active" href="/Front-page.html">Home</a></li>
         <li><a href="/blog.html">Blogs</a></li>
         <li><a href="/contactus.html">Contact us</a></li>
         <li><a href="/services.html">Services</a></li>
-        <div class="social-container">
-          <ul class="social-icons">
-              <li><a href="https://instagram.com/mrtyagi07_" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="https://twitter.com/mrtyagi07" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/vaibhav-tyagi-a1254b170/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/mrtyagi07" target="_blank"><i class="fa fa-github" target="_blank"></i></a></li>
-          </ul>
       </ul>
-    </header>
-   <article>
-    <form>
-      <h1><strong>Write us ✍️</strong></h1>
-      <div class="fixing">
-      <lable for="name">Tell us Your Name</lable>
-      <input type="text" name="name" placeholder="Enter your Name" required />
-      <lable for="email">Email</lable>
-      <input type="email" name="name" placeholder="Enter your Email" required />
-      <div class="Website">
-        <span class="label-input100">Your Website</span>
-        <input type="text" name="web" placeholder="http://"  required/>
-      </div>
-        <span class="message">Message</span>
-        <textarea
-          name="message"
-          placeholder="Your message here..."
-        ></textarea>
-      </div>
-      <div class="button">
-        <button type="submit"><strong>Send Message</strong></button>
+    </header> -->
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Vaibhav, UP-14</div>
+            <div class="text-two">Ghaziabad</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+91 9890 5647</div>
+            <div class="text-two">+91 322 5678</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">vaibhavtyagi438@gmail.com</div>
+            <div class="text-two">info.vaibhav07.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Send us a message</div>
+          <p>
+            If you have any work from me or any types of quries related to my
+            Website, you can send me message from here. It's my pleasure to help
+            you.
+          </p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name" />
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email" />
+            </div>
+            <div class="input-box message-box">
+              <textarea placeholder="Enter your message"></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-    </form>
-  </article>
-  <footer>
-    <p id="copyright" class="copyright text">
-      Copyright &copy; 2027 by Vaibhav Tyagi.
-    </p>
-  </footer>
-  
   </body>
 </html>
